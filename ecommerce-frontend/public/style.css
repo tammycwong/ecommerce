@@ -2,7 +2,7 @@ html {
     font-size: 62.5%;
     /* default is 16px (x 62.5 = 10px = 1rem) */
     box-sizing: border-box;
-    background-color: #F9F0DF;
+    /* background-color: #F9F0DF; */
 }
 body {
     margin:0;
@@ -57,4 +57,39 @@ a.logo {
 }
 .row.center {
     justify-content: center;
+}
+img {
+    border-radius: 0.5rem;
+    width: 300px;
+}
+img.medium {
+    max-width: 29rem;
+    width: 100%;
+}
+.card{
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #FFFBF3;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+.card-body {
+    padding:1rem;
+}
+.card-body > * {
+    margin-bottom: 0.5rem;
+}
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+p {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+.price {
+    font-size: 2rem;
+}
+.rating span {
+    color: #f0c040;
+    margin: 0.1rem;
 }
