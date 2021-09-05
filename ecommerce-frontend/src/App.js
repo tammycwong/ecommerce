@@ -1,14 +1,16 @@
 import React from "react";
-import data from "./data";
-import Product from "./components/Product";
+import { BrowserRouter, Route } from "react-router-dom";
+import HomeScreen from "./screens/HomeScreen";
+import ProductScreen from "./screens/ProductScreen";
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="grid-contaner">
       <header className="row">
         <div>
           <a href="/" className="logo">
-            Generic E-Commerce Site
+            Plantsy 2.0
           </a>
         </div>
         <div>
@@ -18,18 +20,12 @@ function App() {
       </header>
 
       <main>
-        <div>
-          <div className="row center">
-            {data.products.map((product) => (
-              <div key={product.id} className="card">
-                <Product key={product.id} product={product} />
-              </div>
-            ))}
-          </div>
-        </div>
+        <Route path="/product/:id" component={ProductScreen} />
+        <Route path="/" component={HomeScreen} exact/>
       </main>
-      <footer class="row center">Project in Progress</footer>
+      <footer className="row center">Project in Progress</footer>
     </div>
+    </BrowserRouter>
   );
 }
 
