@@ -21,7 +21,7 @@ body {
 }
 header {
     grid-area: header;
-    background-color: #595669;
+    background-color: #364E37 ;
     padding: 10px;
 }
 main {
@@ -30,7 +30,7 @@ main {
 }
 footer {
     grid-area: footer;
-    background-color: #595669;
+    background-color: #364E37 ;
     color: #ffffff;
 }
 .row {
@@ -43,11 +43,11 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #2F2B3E;
+    color: #57765A  ;
 }
 header a {
     color: #ffffff;
-    padding: 1rem;
+    padding: 1rem; 
 }
 a.logo {
     color: #ffffff;
