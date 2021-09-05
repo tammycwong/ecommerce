@@ -11,4 +11,6 @@ Incorporating:
 <br/>
 &nbsp;&nbsp;&nbsp;🌱  Payment options
 <br/>
+&nbsp;&nbsp;&nbsp;🌱  Google Maps API
+<br/>
 &nbsp;&nbsp;&nbsp;🌱  Backend with Node.js
