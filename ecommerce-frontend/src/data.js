@@ -1,54 +1,56 @@
 const data = {
     products: [
         {
-            _id: '1',
+            id: '1',
             name: 'ZZ plant',
-            category: 'Plants',
-            image: '',
+            category: 'Home plants',
+            image: '/images/zz.png',
             price: 120,
             rating: 5,
-            numReviews: 10,
+            numReviews: 1000,
             description: 'indoor plant'
         },
         {
-            _id: '2',
-            name: 'Snake plant',
-            category: 'Plants',
-            image: '',
-            price: 120,
-            rating: 5,
-            numReviews: 4,
-            description: 'indoor plant'
-        },
-        {
-            _id: '3',
-            name: 'Spider plant',
-            category: 'Plants',
-            image: '',
-            price: 120,
-            rating: 5,
-            numReviews: 10,
-            description: 'indoor plant'
-        },
-        {
-            _id: '4',
+            id: '2',
             name: 'Money Tree',
-            category: 'Plants',
-            image: '',
-            price: 20,
+            category: 'Home plants',
+            image: '/images/moneytree.png',
+            price: 120,
             rating: 5,
-            numReviews: 17,
+            numReviews: 208,
             description: 'indoor plant'
         },
         {
-            _id: '5',
+            id: '3',
+            name: 'Aloe Vera',
+            category: 'Home plants',
+            image: '/images/aloe.png',
+            price: 120,
+            rating: 5,
+            numReviews: 453,
+            description: 'indoor plant'
+        },
+        {
+            id: '4',
             name: 'Pothos',
             category: 'Plants',
-            image: '',
+            image: '/images/pothos.png',
+            price: 20,
+            rating: 5,
+            numReviews: 1020,
+            description: 'indoor plant'
+        },
+        {
+            id: '5',
+            name: 'Snake Plant',
+            category: 'Plants',
+            image: '/images/snakeplant.png',
             price: 80,
             rating: 5,
-            numReviews: 10,
+            numReviews: 2560,
             description: 'indoor plant'
         },
     ],
 };
+
+export default data;
