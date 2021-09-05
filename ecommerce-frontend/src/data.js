@@ -6,7 +6,7 @@ const data = {
             category: 'Home plants',
             image: '/images/zz.png',
             price: 120,
-            rating: 5,
+            rating: 4.5,
             numReviews: 1000,
             description: 'indoor plant'
         },
@@ -16,7 +16,7 @@ const data = {
             category: 'Home plants',
             image: '/images/moneytree.png',
             price: 120,
-            rating: 5,
+            rating: 4,
             numReviews: 208,
             description: 'indoor plant'
         },
@@ -26,7 +26,7 @@ const data = {
             category: 'Home plants',
             image: '/images/aloe.png',
             price: 120,
-            rating: 5,
+            rating: 3.5,
             numReviews: 453,
             description: 'indoor plant'
         },
@@ -36,7 +36,7 @@ const data = {
             category: 'Plants',
             image: '/images/pothos.png',
             price: 20,
-            rating: 5,
+            rating: 4.5,
             numReviews: 1020,
             description: 'indoor plant'
         },
