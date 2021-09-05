@@ -33,6 +33,7 @@ footer {
     grid-area: footer;
     background-color: #364E37 ;
     color: #ffffff;
+    padding: 15px;
 }
 .row {
     display: flex;
