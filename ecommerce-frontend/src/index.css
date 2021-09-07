@@ -92,7 +92,7 @@ ul {
 li {
   margin-top: 1rem;
 }
-button {
+input, select, textarea, button {
   padding: 1rem;
   border-radius: 0.5rem;
   border: 01.rem #a4a4a4 solid;
@@ -102,13 +102,17 @@ button {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f8f8f8;
   cursor: pointer;
-  color: white;
 }
-button:hover {
+button {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+input:hover, select:hover, textarea:hover, button:hover {
   border: 0.3rem #86AF67 solid;
 }
 button.primary {
   background-color: #57765A;
+  color: #ffffff;
 }
 button.block{
   width: 100%;
