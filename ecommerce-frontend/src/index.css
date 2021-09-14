@@ -40,6 +40,10 @@ footer {
   background-color: #364E37 ;
   color: #ffffff;
   padding: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 /* header */
 header a {
@@ -49,7 +53,7 @@ header a {
 a.logo {
   color: #ffffff;
   font-size: 3rem;
-  font-weight: none;
+  font-weight: bold;
 }
 .badge {
   background-color: #f02020;
@@ -77,6 +81,9 @@ a.logo {
 .col-2 {
   flex: 2 1 50rem;
 }
+.min-30 {
+  min-width: 30rem;
+}
 /* all */
 h1 {
   font-size: 1.8rem;
@@ -88,6 +95,7 @@ p {
 }
 a {
   text-decoration: none;
+  color: #303A28;
 }
 a:hover {
   color: #57765A ;
@@ -128,13 +136,20 @@ button.block{
 /* image */
 img {
   border-radius: 0.5rem;
+  min-height: 2rem;
+  /* min-width: 500px; */
+}
+img.small {
+  max-width: 10rem;
+  width: 100%;
 }
 img.medium {
-  max-width: 29rem;
+  max-width: 30rem;
   width: 100%;
+  min-height: 37rem;
 }
 img.large {
-  width: 100%;
+  width: 85%;
 }
 /* card */
 .card{
@@ -142,9 +157,11 @@ img.large {
   background-color: #FFFBF3;
   border-radius: 0.5rem;
   margin: 1rem;
+  border: none;
 }
 .card-body {
-  padding:1rem;
+  padding: 1rem;
+  /* border: 0.1rem solid #D5DAD1; */
 }
 .card-body > * {
   margin-bottom: 0.5rem;
